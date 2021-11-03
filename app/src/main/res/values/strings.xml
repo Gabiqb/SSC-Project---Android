@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjectSSC</string>
+    <string name="title_tutorial">Tutorial</string>
+    <string name="title_example1">Example1</string>
+    <string name="title_example2">Example2</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="charging">Charging</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

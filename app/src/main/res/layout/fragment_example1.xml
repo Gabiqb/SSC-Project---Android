@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.example1.Example1Fragment" android:id="@+id/example1">
+
+    <TextView
+            android:id="@+id/statusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="156dp" app:layout_constraintVertical_bias="0.718"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:textColor="#053275"/>
+    <ImageView
+            android:id="@+id/batteryImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b100"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="140dp"
+            app:layout_constraintVertical_bias="0.499"/>
+    <TextView
+            android:id="@+id/percentageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="184dp" app:layout_constraintVertical_bias="0.271" android:textColor="#082F60"/>
+    <Button
+            android:text="GET BATTERY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/getBattery"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/percentageLabel" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="144dp" app:layout_constraintVertical_bias="0.425"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
